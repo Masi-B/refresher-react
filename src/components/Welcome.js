@@ -2,8 +2,10 @@
 import React, { Component } from "react"
 
 class Welcome extends Component {
+    
     render() {
-        return <h1>{this.props.name} is my {this.props.typename}</h1>
+        const { name, typename } = this.props
+        return <h1>{name} is my {typename}</h1>
     }
     
 }

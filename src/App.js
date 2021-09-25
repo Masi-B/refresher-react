@@ -9,6 +9,8 @@ function App() {
   return (
     <div className="App">
       <Counter />
+      <Greet name="David" typename="middle" />
+      <Welcome name="Banda" typename="surname" />
       {/*
       <Greet name="Masimba" typename="firstName">
         <button>children props</button>
