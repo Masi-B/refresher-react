@@ -1,5 +1,11 @@
 import React from "react";
 
-const Hey = () => <h1>Hello Masimba</h1>
-
+const Hey = (props) => {
+    return (
+        <div>
+        <h1>Hello {props.name} = {props.typename}</h1>
+        {props.children}
+        </div>
+    )
+}
 export default Hey
