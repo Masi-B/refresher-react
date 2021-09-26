@@ -1,11 +1,13 @@
 //import logo from './logo.svg';
 import './App.css';
 import ClassClick from './components/ClassClick';
+import Condition from './components/Condition';
 import Counter from './components/Counter';
 import EventBind from './components/EventBind';
 import FunctionClick from './components/FunctionClick';
 import Greet from './components/Greet';
 import Message from './components/Message';
+import ParentComponent from './components/ParentComponent';
 import Welcome from './components/Welcome';
 
 function App() {
@@ -15,7 +17,9 @@ function App() {
       <ClassClick />
       
       <Counter />
-      <EventBind/>
+      <EventBind />
+      <ParentComponent />
+      <Condition/>
       <Greet name="David" typename="middle" />
       <Welcome name="Banda" typename="surname" />
       {/*
@@ -33,4 +37,4 @@ function App() {
 
 export default App;
 
-//functional components
+//functional components 
