@@ -10,20 +10,29 @@ import Message from './components/Message';
 import ParentComponent from './components/ParentComponent';
 import UsingLists from './components/UsingLists';
 import Welcome from './components/Welcome';
+import Stylesheet from './components/Stylesheet';
+import inLine from './components/inLine';
+import styles from './components/appStyle.module.css'
+import './components/appStyles.css'
 
 function App() {
   return (
     <div className="App">
+      {/*
       <FunctionClick />
       <ClassClick />
-      
       <Counter />
       <EventBind />
       <ParentComponent />
       <Condition/>
-      <Greet name="David" typename="middle" />
-      <Welcome name="Banda" typename="surname" />
-      <UsingLists/>
+      <Greet name="David" typename="middle" /> 
+      <UsingLists />
+      */}
+      <Stylesheet primary={true} secondary={true}/>
+      <Welcome secondary={false} name="Banda" typename="surname" / > 
+      <inLine />
+      <h1 className = 'error'>No</h1>
+      <h1 className = {styles.success}>Yes</h1>
       {/*
       <Greet name="Masimba" typename="firstName">
         <button>children props</button>
