@@ -8,6 +8,7 @@ import FunctionClick from './components/FunctionClick';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import ParentComponent from './components/ParentComponent';
+import UsingLists from './components/UsingLists';
 import Welcome from './components/Welcome';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Condition/>
       <Greet name="David" typename="middle" />
       <Welcome name="Banda" typename="surname" />
+      <UsingLists/>
       {/*
       <Greet name="Masimba" typename="firstName">
         <button>children props</button>
