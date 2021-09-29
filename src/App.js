@@ -8,7 +8,7 @@ import FunctionClick from './components/FunctionClick';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import ParentComponent from './components/ParentComponent';
-import UsingLists from './components/UsingLists';
+import Form from './components/Form';
 import Welcome from './components/Welcome';
 import Stylesheet from './components/Stylesheet';
 import inLine from './components/inLine';
@@ -28,12 +28,16 @@ function App() {
       <Greet name="David" typename="middle" /> 
       <UsingLists />
       */}
-      <Stylesheet primary={true} secondary={true}/>
+      <Form/>
+
+      
+      {/* <Stylesheet primary={true} secondary={true}/>
       <Welcome secondary={false} name="Banda" typename="surname" / > 
       <inLine />
       <h1 className = 'error'>No</h1>
-      <h1 className = {styles.success}>Yes</h1>
-      {/*
+      <h1 className={styles.success}>Yes</h1>
+      
+      
       <Greet name="Masimba" typename="firstName">
         <button>children props</button>
       </Greet>
